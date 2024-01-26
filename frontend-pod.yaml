@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+  lables:
+    app: frontend
+spec:
+  containers:
+    - name: frontend
+      image: teja4360/frontend
+      ports:
+        - containerPort: 80
