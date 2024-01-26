@@ -9,4 +9,4 @@ spec:
     - name: frontend
       image: teja4360/frontend
       ports:
-        - containerPort: 80
+        - containerPort: 8081
