@@ -18,4 +18,4 @@ spec:
         - name: mongo
           image: mongo
           ports:
-            - containerPort: 8089
+            - containerPort: 80

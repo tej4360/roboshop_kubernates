@@ -8,5 +8,5 @@ spec:
   ports:
     - protocol: TCP
       port: 80  # Port on the service
-      targetPort: 8089  # Port on the pod (your application should be listening on this port)
+      targetPort: 80  # Port on the pod (your application should be listening on this port)
   type: ClusterIP
