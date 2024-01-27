@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: teja4360/frontend
+          image: teja4360/frontend:2.0
           ports:
             - containerPort: 80
